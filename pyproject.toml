@@ -1,0 +1,17 @@
+[project]
+name = "asig-attacks"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kikis",email = "kikispcmr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "adversarial-robustness-toolbox (>=1.19.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
